@@ -18,6 +18,7 @@ event.target.reset();
 
 const createAnimalListItem = function(form){
   const animalListItem = document.createElement('li');
+  animalListItem.id = form.name.value;
   animalListItem.classList.add('animal-list-item');
 
   const name = document.createElement('h3');
@@ -36,7 +37,20 @@ const createAnimalListItem = function(form){
   sex.textContent = form.sex.value;
   animalListItem.appendChild(sex);
 
+  const deleteButton = document.createElement('button');
+  deleteButton.textContent = 'Adopt'
+  deleteButton.value = form.name.value
+  animalListItem.appendChild(deleteButton);
+
+  deleteButton.addEventListener('click', handleDelete);
+
   return animalListItem;
 
 
+
+}
+
+const handleDelete = function(event){
+console.log(event.target.value);
+document.getElementById(event.target.value).remove();
 }
