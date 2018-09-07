@@ -65,5 +65,4 @@ document.getElementById(event.target.value).remove();
 const handleDeleteAllClick = function (event) {
   const animalList = document.querySelector('#animal-list')
   animalList.innerHTML = '';
-
 }
