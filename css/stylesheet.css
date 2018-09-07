@@ -1,5 +1,9 @@
+body{
+  background-color: #412E2B;
+}
+
 h1 {
-  color:black;
+  color:#F0F1EC;
 }
 
 .form-item{
@@ -23,4 +27,59 @@ h1 {
   border: 1px solid black;
   border-radius: 5%;
   backgrond: #DDEAFF;
+}
+
+form {
+  background: -webkit-linear-gradient(bottom, #C98E43, #412E2B 175px);
+  background: -moz-linear-gradient(bottom, #C98E43, #412E2B 175px);
+  background: linear-gradient(bottom, #C98E43, #412E2B 175px);
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: 450px;
+  font-family: Arial, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: bold;
+  color: #F0F1EC;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  font-family: sans-serif;
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+input[type='text']:focus{
+  border:3px solid yellow;
+}
+
+input[type='number']:focus{
+  border:3px solid yellow;
+}
+
+
+#about{
+  width:375px;
+  height: 150px;
+
+
+}
+.submit{
+  margin-top:10px;
 }

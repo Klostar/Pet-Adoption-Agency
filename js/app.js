@@ -40,6 +40,10 @@ const createAnimalListItem = function(form){
   sex.textContent = form.sex.value;
   animalListItem.appendChild(sex);
 
+  const about = document.createElement('p');
+  about.textContent = form.about.value;
+  animalListItem.appendChild(about);
+
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'Adopt'
   deleteButton.value = form.name.value

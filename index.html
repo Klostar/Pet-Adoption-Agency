@@ -24,7 +24,7 @@
 
     <div class='form-item'>
       <label for='breed' class='primary'>Breed:</label>
-      <input id='breed' type='text' id='breed' required/>
+      <input id='breed' type='text' required/>
     </div>
 
     <div class='form-item'>
@@ -34,13 +34,20 @@
         <option value = 'Male'>Male</option>
           <option value ='Female'>Female</option>
         </select>
+      </div>
+
+        <div class='form-item'>
+          <label class='about' for='about' class='primary'>About:</label>
+          <input id ='about' type='text' required/>
+        </div>
 
     </div>
   </div>
-  <input type='submit' value='save'/>
+  <input class='submit' type='submit' value='save'/>
+  <button id='delete-all'>Adopt All Animals</button>
 </form>
 
-<button id='delete-all'>Adopt All Animals</button>
+
 
 <h1> Animals Available</h1>
 <div id='animal-list' >
