@@ -25,7 +25,7 @@ const createAnimalListItem = function(form){
   animalListItem.classList.add('animal-list-item');
 
   const name = document.createElement('h3');
-  name.textContent = `Name: ${form.name.value}` ;
+  name.textContent = `${form.name.value}, is looking for a home` ;
   animalListItem.appendChild(name)
 
   const age = document.createElement('h3');
