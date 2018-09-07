@@ -1,3 +1,26 @@
 h1 {
   color:black;
 }
+
+.form-item{
+  margin-right: 1.8rem;
+}
+
+/* label.primary{
+  margin-right: 1.8rem;
+} */
+
+
+#animal-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.animal-list-item{
+  margin:0.5rem 0.5rem;
+  padding:0.5rem 0.8rem;
+  border: 1px solid black;
+  border-radius: 5%;
+  backgrond: #DDEAFF;
+}
